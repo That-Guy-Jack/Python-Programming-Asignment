@@ -1,0 +1,37 @@
+10 stations 
+nodal distance of 200 meters (ND)
+transmission rate of 5Mbps (TR)
+packet size of 1000 bit (Bits)
+propagation speed is 2 x 108 m/s (PS)
+
+
+Calculate data Throughput and channel Utililisation
+
+
+
+Plan: 
+
+take user input for packet size in bits (Bits), transmission rate (TR),  nodal distance (ND) and stations (STAT)
+
+needs to output Throughput (T) and Utililisation (U)
+
+DBS (Distance between end stations)
+end nodes distance 
+CDBES = ND(N - 1)
+
+propergation delay 
+CPD = CDBES/PS
+
+transmission time (TT)
+CTT =  ( (PB + 8 + 14 + 4) / PB) / TR
+
+Utililisation (U)
+U = PD / TT
+
+Throughput (T)
+
+CBPS = Bits/s
+
+CBPS = U * TR
+
+T = CBPS/8
