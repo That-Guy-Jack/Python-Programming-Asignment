@@ -32,7 +32,6 @@ def main():
         PB = int(input("Enter Packet Size in bits (1000): ") or DPB )
         PS = int(input("Enter Propergation Speed (200000000): ") or DPS )
 
-
         #Math Time
  
         print("Calculating Distance between end stations: ")
