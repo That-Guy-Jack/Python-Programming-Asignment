@@ -100,9 +100,9 @@ while loop != 0:
     print("")
     print("Loops Remaining: " + str(loop))
     print("")
-    print("Y1 Data Generated so far: " + str(MPLDY1))
+    print("Throughput Y Data Generated so far: " + str(MPLDY1))
     print("")
-    print("Y2 Data Generated so far: " + str(MPLDY2))
+    print("Utililisation Y Data Generated so far: " + str(MPLDY2))
     loop = loop -1
     count = count +1
 
