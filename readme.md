@@ -1,12 +1,12 @@
-### Python assighment for UOS
+# Python assighment for UOS
 
 
 ## How to run 
 
-# Recomended 
+## Recomended 
 Your system should have docker installed with docker-compose, run the generate.sh with bash and it will compile and make a container for the script 
 
-# manual 
+## Manual 
 
 the manual way of running it is via a set of commands, enter the generate directory, 
 
