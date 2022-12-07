@@ -71,21 +71,21 @@ while loop != 0:
     CDBES = ND * (S - 1)
     print("Calculated Distance between end stations: " + str(CDBES) + "Meters")
 
+    print("Converting Transmission rate to Bits/s: ")
+    CTR = TR * 1000000  
+    print("Converted Transmission rate: " + str(CTR) + " Bits")
+
     print("Calculating propergation delay: ")
     CPD = CDBES/PS
     print("Calculated propergation delay: " + str(CPD) + " Seconds")
 
     print("Calculating transmission time: ")
-    CTT = ( (PB + 8 + 14 + 4) / PB) / TR
+    CTT = ( (PB + 8 + 14 + 4) / PB) / CTR
     print("Calculated transmission time: " + str(CTT) + " Seconds")
 
     print("Calculating Utililisation: ")
     CU = CPD / CTT
     print("Calculated Utililisation: " + str(CU) + "%")
-
-    print("Converting Transmission rate to Bits/s: ")
-    CTR = TR * 1000000  
-    print("Converted Transmission rate: " + str(CTR) + " Bits")
 
     print("Calculating Throughput: ")
     CBPS = CU * CTR
