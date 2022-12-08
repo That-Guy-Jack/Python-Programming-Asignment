@@ -62,7 +62,7 @@ except:
 #loop for amount of entries in PSL
 loop = len(PSL)
 count = 0
-while loop != 0:
+while loop != 0: 
     CL = PSL[count]
     PB = CL
     print("Current packet Size: " + str(PB))
