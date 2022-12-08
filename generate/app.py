@@ -63,8 +63,7 @@ except:
 loop = len(PSL)
 count = 0
 while loop != 0: 
-    CL = PSL[count]
-    PB = CL
+    PB = PSL[count]
     print("Current packet Size: " + str(PB))
 
     print("Calculating Distance between end stations: ")
@@ -96,7 +95,6 @@ while loop != 0:
     print("Calculated Throughput: " + str(T) + " MBits/s") 
     MPLDY1.append(T)
     MPLDY2.append(CU)
-    MPLDX.append(PB)
     print("")
     print("Loops Remaining: " + str(loop))
     print("")
